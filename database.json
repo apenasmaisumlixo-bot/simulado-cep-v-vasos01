@@ -1,0 +1,178 @@
+{
+  "metadata": {
+    "total_cards": 94,
+    "deck_name": "Roteiro 2 - Todos os Vasos",
+    "description": "Flashcards de anatomia vascular com questões individuais",
+    "created_at": "2025-10-03",
+    "format_version": "2.0",
+    "categories": [
+      "anatomia_vascular"
+    ],
+    "difficulty_levels": [
+      "intermediate"
+    ],
+    "total_images": 94
+  },
+  "cards": [
+    {
+      "id": 1,
+      "question": "Nomeie o vaso numerado como 1",
+      "image": "images/batch1/card_1.jpg",
+      "answer": "artéria temporal superficial",
+      "category": "anatomia_vascular",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 2,
+      "question": "Nomeie o vaso numerado como 2",
+      "image": "images/batch1/card_2.jpg",
+      "answer": "artéria ociptal",
+      "category": "anatomia_vascular",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 3,
+      "question": "Nomeie o vaso numerado como 3",
+      "image": "images/batch1/card_3.jpg",
+      "answer": "artéria facial",
+      "category": "anatomia_vascular",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 4,
+      "question": "Nomeie o vaso numerado como 4",
+      "image": "images/batch1/card_4.jpg",
+      "answer": "artéria maxilar",
+      "category": "anatomia_vascular",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 5,
+      "question": "Nomeie o vaso numerado como 5",
+      "image": "images/batch1/card_5.jpg",
+      "answer": "carótida externa",
+      "category": "anatomia_vascular",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 6,
+      "question": "Nomeie o vaso numerado como 1",
+      "image": "images/batch1/card_6.jpg",
+      "answer": "art carótida comum",
+      "category": "anatomia_vascular",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 7,
+      "question": "Nomeie o vaso numerado como 2",
+      "image": "images/batch1/card_7.jpg",
+      "answer": "art carótida externa",
+      "category": "anatomia_vascular",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 8,
+      "question": "Nomeie o vaso numerado como 3",
+      "image": "images/batch1/card_8.jpg",
+      "answer": "art carótida interna",
+      "category": "anatomia_vascular",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 9,
+      "question": "Nomeie o vaso numerado como 2",
+      "image": "images/batch1/card_9.jpg",
+      "answer": "veia jugular interna",
+      "category": "anatomia_vascular",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 10,
+      "question": "Nomeie o vaso numerado como 3",
+      "image": "images/batch1/card_10.jpg",
+      "answer": "veia jugular externa",
+      "category": "anatomia_vascular",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 11,
+      "question": "Nomeie o vaso numerado como 1",
+      "image": "images/batch1/card_11.jpg",
+      "answer": "art carótida comum",
+      "category": "anatomia_vascular",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 12,
+      "question": "Nomeie o vaso numerado como 1",
+      "image": "images/batch1/card_12.jpg",
+      "answer": "veia jugular anterior",
+      "category": "anatomia_vascular",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 13,
+      "question": "Nomeie o vaso numerado como 2",
+      "image": "images/batch1/card_13.jpg",
+      "answer": "veia subclavia",
+      "category": "anatomia_vascular",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 14,
+      "question": "Nomeie o vaso numerado como 3",
+      "image": "images/batch1/card_14.jpg",
+      "answer": "veias braquiocefálicas",
+      "category": "anatomia_vascular",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 15,
+      "question": "Nomeie o vaso numerado como 4",
+      "image": "images/batch1/card_15.jpg",
+      "answer": "veia cava superior",
+      "category": "anatomia_vascular",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 16,
+      "question": "Nomeie o vaso numerado como 1",
+      "image": "images/batch1/card_16.jpg",
+      "answer": "aorta torácica",
+      "category": "anatomia_vascular",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 17,
+      "question": "Nomeie o vaso numerado como 2",
+      "image": "images/batch1/card_17.jpg",
+      "answer": "arco aortico",
+      "category": "anatomia_vascular",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 18,
+      "question": "Nomeie o vaso numerado como 3",
+      "image": "images/batch1/card_18.jpg",
+      "answer": "tronco bronquiocefálico direito",
+      "category": "anatomia_vascular",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 19,
+      "question": "Nomeie o vaso numerado como 4",
+      "image": "images/batch1/card_19.jpg",
+      "answer": "artéria carótida comum",
+      "category": "anatomia_vascular",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 20,
+      "question": "Nomeie o vaso numerado como 5",
+      "image": "images/batch1/card_20.jpg",
+      "answer": "arte subclavia esquerda",
+      "category": "anatomia_vascular",
+      "difficulty": "intermediate"
+    }
+  ]
+}

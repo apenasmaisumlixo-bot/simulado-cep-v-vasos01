@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulado - CEP V Vasos Sanguíneos</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="simulado-header">
+            <div class="simulado-info">
+                <h2>Simulado CEP V - Vasos Sanguíneos</h2>
+                <div class="simulado-progress">
+                    Questão <span id="currentQuestion">1</span> de <span id="totalQuestions">20</span>
+                </div>
+            </div>
+            <div class="simulado-timer" id="simuladoTimer">30:00</div>
+        </div>
+        
+        <div class="question-container">
+            <div class="question-image">
+                <img id="questionImage" src="" alt="Imagem da questão">
+            </div>
+            <div class="question-text" id="questionText"></div>
+            
+            <div class="training-message">
+                <p>📝 <strong>Anote sua resposta para treinar</strong></p>
+            </div>
+            
+            <div class="question-controls">
+                <button class="btn btn-secondary" onclick="goHome()">Voltar ao Início</button>
+                <button class="btn btn-primary" id="nextBtn" onclick="nextQuestion()">Próxima Questão</button>
+                <button class="btn btn-success" onclick="finishSimulado()" style="display: none;" id="finishBtn">Finalizar Simulado</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="simulado.js"></script>
+</body>
+</html>

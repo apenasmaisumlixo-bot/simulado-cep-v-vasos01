@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcards - CEP V Vasos Sanguíneos</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="flashcard-header">
+            <h2>Flashcards - Anatomia Vascular</h2>
+            <p>Cards embaralhados automaticamente</p>
+        </div>
+        
+        <div class="flashcard">
+            <div class="flashcard-content">
+                <div class="flashcard-image">
+                    <img id="flashcardImage" src="" alt="Imagem do flashcard">
+                </div>
+                <div class="flashcard-question" id="flashcardQuestion"></div>
+                <div class="flashcard-answer" id="flashcardAnswer" style="display: none;"></div>
+            </div>
+        </div>
+        
+        <div class="flashcard-controls">
+            <button class="btn btn-secondary" onclick="goHome()">Voltar ao Início</button>
+            <button class="btn btn-primary" onclick="previousFlashcard()">Anterior</button>
+            <button class="btn btn-success" id="showAnswerBtn" onclick="showAnswer()">Mostrar Resposta</button>
+            <button class="btn btn-primary" id="nextQuestionBtn" onclick="nextFlashcard()" style="display: none;">Próxima Questão</button>
+            <button class="btn btn-warning" onclick="shuffleFlashcards()">Embaralhar</button>
+        </div>
+    </div>
+
+    <script src="flashcards.js"></script>
+</body>
+</html>

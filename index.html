@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulado CEP V - Vasos Sanguíneos</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <div class="logo-section">
+                    <h1>Simulado CEP V Vasos Sanguíneos</h1>
+                    <p class="subtitle">Sistema de Estudo Interativo</p>
+                </div>
+                <div class="anatomical-decoration">
+                    <div class="vascular-icon">
+                        <svg width="80" height="80" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M50 10C30 10 15 25 15 45C15 65 30 80 50 80C70 80 85 65 85 45C85 25 70 10 50 10Z" stroke="#e74c3c" stroke-width="3" fill="none"/>
+                            <path d="M50 20C35 20 25 30 25 45C25 60 35 70 50 70C65 70 75 60 75 45C75 30 65 20 50 20Z" stroke="#3498db" stroke-width="2" fill="none"/>
+                            <circle cx="50" cy="45" r="8" fill="#e74c3c"/>
+                            <path d="M30 35L70 35M30 45L70 45M30 55L70 55" stroke="#2c3e50" stroke-width="1.5"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Welcome Section -->
+            <section class="welcome-section">
+                <div class="welcome-text">
+                    <h2>Sistema de Estudo de Anatomia Vascular</h2>
+                    <p>Escolha seu método de estudo preferido. Pratique com flashcards interativos ou teste seus conhecimentos com simulados completos.</p>
+                </div>
+            </section>
+
+            <!-- Mode Selection -->
+            <section class="mode-selection">
+                <h3>Escolha seu Modo de Estudo</h3>
+                <div class="mode-cards">
+                    <div class="mode-card" id="simuladoCard">
+                        <div class="mode-icon">
+                            <svg width="60" height="60" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="20" y="15" width="60" height="70" rx="5" stroke="#3498db" stroke-width="3" fill="none"/>
+                                <path d="M30 30L70 30M30 40L70 40M30 50L60 50M30 60L55 60" stroke="#3498db" stroke-width="2"/>
+                                <circle cx="75" cy="25" r="8" fill="#e74c3c"/>
+                                <path d="M71 25L75 29L79 21" stroke="white" stroke-width="2" fill="none"/>
+                            </svg>
+                        </div>
+                        <h4>Simulado</h4>
+                        <p>Teste completo com questões cronometradas e resultado final</p>
+                        <button class="mode-btn" onclick="startSimulado()">Iniciar Simulado</button>
+                    </div>
+
+                    <div class="mode-card" id="flashcardsCard">
+                        <div class="mode-icon">
+                            <svg width="60" height="60" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="15" y="20" width="50" height="35" rx="5" stroke="#9b59b6" stroke-width="3" fill="none"/>
+                                <rect x="25" y="30" width="50" height="35" rx="5" stroke="#8e44ad" stroke-width="3" fill="none"/>
+                                <rect x="35" y="40" width="50" height="35" rx="5" stroke="#663399" stroke-width="3" fill="none"/>
+                                <path d="M45 52L75 52M45 60L70 60" stroke="#663399" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <h4>Flashcards</h4>
+                        <p>Estudo livre com cartões interativos de anatomia vascular</p>
+                        <button class="mode-btn" onclick="startFlashcards()">Iniciar Flashcards</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Statistics Section -->
+            <section class="stats-section">
+                <h3>Estatísticas do Sistema</h3>
+                <div class="stats-cards">
+                    <div class="stat-card">
+                        <div class="stat-number" id="totalQuestions">94</div>
+                        <div class="stat-label">Questões Disponíveis</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Com Imagens</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">Vasos</div>
+                        <div class="stat-label">Anatomia Vascular</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Instructions Section -->
+            <section class="instructions-section">
+                <h3>Como Usar</h3>
+                <div class="instructions-grid">
+                    <div class="instruction-item">
+                        <div class="instruction-number">1</div>
+                        <div class="instruction-content">
+                            <h4>Escolha o Modo</h4>
+                            <p>Selecione entre Simulado (teste cronometrado) ou Flashcards (estudo livre)</p>
+                        </div>
+                    </div>
+                    <div class="instruction-item">
+                        <div class="instruction-number">2</div>
+                        <div class="instruction-content">
+                            <h4>Estude as Imagens</h4>
+                            <p>Analise cuidadosamente as estruturas anatômicas numeradas</p>
+                        </div>
+                    </div>
+                    <div class="instruction-item">
+                        <div class="instruction-number">3</div>
+                        <div class="instruction-content">
+                            <h4>Responda</h4>
+                            <p>Identifique corretamente os vasos sanguíneos solicitados</p>
+                        </div>
+                    </div>
+                    <div class="instruction-item">
+                        <div class="instruction-number">4</div>
+                        <div class="instruction-content">
+                            <h4>Acompanhe o Progresso</h4>
+                            <p>Veja seu desempenho e áreas que precisam de mais estudo</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>&copy; 2024 Sistema de Estudo CEP V</p>
+            <p>Anatomia Vascular - Material de Estudo Interativo</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
